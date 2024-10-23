@@ -9,15 +9,15 @@
 </head>
 
 <body>
-    <!--includi header-->
+    <!--header-->
     @include("partial.header")
 
-    <!-- inserisci contenuti-->
+    <!--contents-->
     <main>
         @yield("main-content")
     </main>
 
-    <!-- includi footer -->
+    <!--footer -->
     @include("partial.footer")
 
     @vite("resources/js/app.js")
